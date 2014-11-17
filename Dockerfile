@@ -10,7 +10,7 @@ RUN \
 # Install Compass.
 RUN gem install compass
 
-# hacks for SASS
+# Set encoding for SASS
 RUN locale-gen en_US.UTF-8
 ENV LC_ALL en_US.UTF-8
 
